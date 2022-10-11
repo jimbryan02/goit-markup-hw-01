@@ -6,108 +6,131 @@
     <title>homework1</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles/styles.css">
   </head>
 
   <body>
-    <!-- El encabezado de la página web -->
+    <!-- Encabezado de pagina -->
     <header>
-      <nav>
-        <ul>
+      <!-- Navigacion principal -->
+      <div class="nav-menu">
+      
+              <!-- El logo siempre es un link -->
+            <a href="https://www.google.com/" target="_blank" class="web-logo" >WebEstudio</a>
+          
+          <!--Links a otras paginas o seccciones de la pagina actual -->  
+          <nav>
+          <ul>
           <li>
-            <a href="https://www.google.com/" target="_blank">WebEstudio</a>
+            <a href="https://jimbryan02.github.io/goit-markup-hw-01/" class="link">Estudio</a>
           </li>
           <li>
-            <a href="https://www.google.com/" target="_blank">Estudio</a>
+            <a href="https://jimbryan02.github.io/goit-markup-hw-02/" class="link">Portafolio</a>
           </li>
           <li>
-            <a href="https://www.google.com/" target="_blank">Portafolio</a>
-          </li>
-          <li>
-            <a href="https://www.google.com/" target="_blank">Contactos</a>
+            <a href="https://www.google.com/" target="_blank" class="link">Contactos</a>
           </li>
         </ul>
       </nav>
-      <a href="https://www.google.com/" target="_blank">info@devstudio.com</a>
-      <a href="https://www.google.com/" target="_blank">+57 55 5529 6000</a>
+      </div> 
+
+      <!-- Informaciond de contacto en encabezado -->
+      <div class="header-contact-info">
+      <ul>   
+      <li><a href="https://www.google.com/" target="_blank"> info@devstudio.com</a></li>
+      <li><a href="https://www.google.com/" target="_blank">+57 55 5529 6000</a></li>
+      </ul>
+      </div>
     </header>
+
 
     <!--Parte principal de la pagina-->
     <main>
       <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
       <button type="button" class="button">Solicite nuestro servicio</button>
-
-      <h2>ATENCION A LOS DETALLES</h2>
+      
+      <div>
+      <p>ATENCION A LOS DETALLES</p>
       <p>
         adentramos en todos los detalles y procesos de su negocio, para así
         desarrollar una solución a su medida.
       </p>
 
-      <h2>PUNTUALIDAD</h2>
+      <p>PUNTUALIDAD</p>
       <p>
         Con nosotros, usted puede sentirse seguro y protegido. Un principio
         importante de la empresa: respetar su tiempo y respetar los plazos
         acordados.
       </p>
 
-      <h2>PLANIFICACION</h2>
+      <p>PLANIFICACION</p>
       <p>
         Usted podrá observar y participar en cada fase del desarrollo y
         aplicación de soluciones.
       </p>
 
-      <h2>TECNOLOGIA MODERNA</h2>
+      <p>TECNOLOGIA MODERNA</p>
       <p>
         Usamos herramientas innovadoras para resolver las tareas asignadas. Es
         hora de simplificar los procesos laborales.
       </p>
+      </div>
 
       <h2>A que nos dedicamos</h2>
       <div class="images">
-        <img
-          src="./images/webdevelopment.JPG" alt="desarrollo de paginas web" width="373">
+        <ul>
+        <li><img src="./images/webdevelopment.jpg" alt="desarrollo de paginas web" width="373"></li>
 
-        <img 
-          src="./images/appdevelopment.JPG" alt="apps development" width="373">
+        <li><img src="./images/appdevelopment.jpg" alt="apps development" width="373"></li>
 
-        <img
-          src="./images/userexperience.JPG" alt="user experience" width="373">
+        <li><img src="./images/userexperience.jpg" alt="user experience" width="373"></li>
+        </ul>
       </div>
 
       <h2>Nuestro Equipo</h2>
       <div class="staff-members">
-        <img
-          src="./images/desarrolladordeproducto.JPG" alt="disenador de productos" width="270">
-        <p>Andres Cubo</p>
-        <p>Diseñador de producto</p>
+        <ul>
+         <div>
+           <li><img src="./images/productdesigner.jpg" alt="disenador de productos" width="270">
+           <p>Andres Cubo</p>
+           <p>Diseñador de producto</p></li>
+         </div>
 
-        <img
-          src="./images/desarrolladorafrontend.JPG" alt="desarrolladora de frontend" width="270">
+         <div>
+        <li><img src="./images/frontenddesigner.jpg" alt="desarrolladora de frontend" width="270">
         <p>Carla Palacios</p>
-        <p>Desarrolladora Frontend</p>
-
-        <img 
-          src="./images/marketing.JPG" alt="marketing" width="270">
+        <p>Desarrolladora Frontend</p></li>
+         </div> 
+        
+         <div>
+        <li><img src="./images/marketing.jpg" alt="marketing" width="270">
         <p>Mario Dorado</p>
-        <p>Marketing</p>
-
-        <img 
-          src="./images/disenadoriu.JPG" alt="disenador iu" width="270">
+        <p>Marketing</p></li>
+         </div>
+         
+         <div>
+        <li><img src="./images/iudesigner.jpg" alt="disenador iu" width="270">
         <p>Pablo Mijangos</p>
-        <p>Diseñador IU</p>
+        <p>Diseñador IU</p></li>
+        </div>
+        </ul>
       </div>
     </main>
 
-    <br>
       <!--Pie de pagina-->
     <footer>
-      <div class="contact-info">
-        <address>
-          <a href="https://www.google.com/" target="_blank">WebEstudio</a>
-          <p>Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
-          <p>info@example.com</p>
-          <p>+52 55 5529 6000</p>
-        </address>
+      <div class="footer-contact-info container">
+          <!-- El logo siempre es un link -->
+          <a href="https://www.google.com/" target="_blank" class="web-logo" >WebEstudio</a>
+
+          <!--Informacion de contacto en pie de pagina-->
+          <ul>
+          <li><a href="https://www.google.com/" target="_blank" class="info">Calz. Ticomán 500, Ciudad de México, CDMX, México</a></li>
+          <li><a href="https://www.google.com/" target="_blank" class="info">info@devstudio.com</a></li>
+          <li><a href="https://www.google.com/" target="_blank" class="info">+57 55 5529 6000</a></li>
+          </ul> 
       </div>
     </footer>
+  
   </body>
 </html>
